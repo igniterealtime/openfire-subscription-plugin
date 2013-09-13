@@ -3,12 +3,12 @@
    <class>org.jivesoftware.openfire.plugin.SubscriptionPlugin</class>
 
    <name>Subscription</name>
-   <description>Automatically accepts or rejects subscription requests</description>
+   <description>Automatically accepts or rejects subsription requests</description>
    <author>Ryan Graham</author>
-   <version>${project.version}</version>
-   <date>tbc.</date>
+   <version>1.3.0</version>
+   <date>09/13/2013</date>
    <url>http://www.igniterealtime.org</url>
-   <minServerVersion>4.0.0</minServerVersion>
+   <minServerVersion>3.9.0</minServerVersion>
 
    <adminconsole>
       <tab id="tab-server">
