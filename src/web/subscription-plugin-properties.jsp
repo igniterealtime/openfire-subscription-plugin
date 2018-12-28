@@ -13,7 +13,7 @@
   - See the License for the specific language governing permissions and
   - limitations under the License.
 --%>
-
+<%@ page contentType="text/html; charset=UTF-8" %>
 <%@ page import="java.util.*,
                  org.jivesoftware.openfire.user.*,
                  org.jivesoftware.openfire.XMPPServer,
