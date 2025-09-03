@@ -1,5 +1,5 @@
 <%--
-  - Copyright (C) 2005-2008 Jive Software. All rights reserved.
+  - Copyright (C) 2005-2008 Jive Software 2025 Ignite Realtime Foundation. All rights reserved.
   -
   - Licensed under the Apache License, Version 2.0 (the "License");
   - you may not use this file except in compliance with the License.
@@ -34,7 +34,7 @@
    boolean addUser = ParamUtils.getBooleanParameter(request, "addUser");
    boolean deleteUser = ParamUtils.getBooleanParameter(request, "deleteUser");   
 
-   SubscriptionPlugin plugin = (SubscriptionPlugin) XMPPServer.getInstance().getPluginManager().getPlugin("subscription");
+   SubscriptionPlugin plugin = (SubscriptionPlugin) XMPPServer.getInstance().getPluginManager().getPluginByName("Subscription").orElse(null);
 
    Map<String, String> errors = new HashMap<String, String>();
    
