@@ -6,9 +6,9 @@
    <description>Automatically accepts or rejects subscription requests</description>
    <author>Ryan Graham</author>
    <version>${project.version}</version>
-   <date>2023-11-21</date>
-   <url>http://www.igniterealtime.org</url>
-   <minServerVersion>4.0.0</minServerVersion>
+   <date>2025-09-03</date>
+   <url>https://www.igniterealtime.org</url>
+   <minServerVersion>4.4.0</minServerVersion>
 
    <adminconsole>
       <tab id="tab-server">
